@@ -2,35 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cd8fcfa-8415-43a7-8d71-146f2ad6caf5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/symboltable/bst/BST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/symboltable/bst/BSTDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/priorityqueue/MaxPQ$ListIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/priorityqueue/MaxPQ$ListIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/priorityqueue/MaxPQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/priorityqueue/MaxPQ.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/priorityqueue/MaxPQDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/priorityqueue/MaxPQDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/queue/dynamicarray/QueueDynamicArray$ListIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/queue/dynamicarray/QueueDynamicArray$ListIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/queue/dynamicarray/QueueDynamicArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/queue/dynamicarray/QueueDynamicArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/queue/dynamicarray/QueueDynamicArrayDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/queue/dynamicarray/QueueDynamicArrayDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/queue/linkedlist/QueueLinkedList$ListIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/queue/linkedlist/QueueLinkedList$ListIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/queue/linkedlist/QueueLinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/queue/linkedlist/QueueLinkedList$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/queue/linkedlist/QueueLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/queue/linkedlist/QueueLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/queue/linkedlist/QueueLinkedListDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/queue/linkedlist/QueueLinkedListDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/sorting/heapsort/Heap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/sorting/heapsort/Heap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/sorting/heapsort/HeapSortDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/sorting/heapsort/HeapSortDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/sorting/insertionsort/Insertion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/sorting/insertionsort/Insertion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/sorting/insertionsort/InsertionSortDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/sorting/insertionsort/InsertionSortDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/sorting/mergesort/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/sorting/mergesort/MergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/sorting/mergesort/MergeSortDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/sorting/mergesort/MergeSortDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/sorting/quicksort/Quick.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/sorting/quicksort/Quick.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/sorting/quicksort/QuickSortDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/sorting/quicksort/QuickSortDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/stack/dynamicarray/StackArray$ListIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/stack/dynamicarray/StackArray$ListIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/stack/dynamicarray/StackArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/stack/dynamicarray/StackArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/stack/dynamicarray/StackArrayDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/stack/dynamicarray/StackArrayDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/stack/linkedlist/StackLinkedList$ListIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/stack/linkedlist/StackLinkedList$ListIterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/stack/linkedlist/StackLinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/stack/linkedlist/StackLinkedList$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/stack/linkedlist/StackLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/stack/linkedlist/StackLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/stack/linkedlist/StackLinkedListDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/stack/linkedlist/StackLinkedListDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queue/dynamicarray/QueueDynamicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/queue/dynamicarray/QueueDynamicArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/symboltable/bst/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/symboltable/bst/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/symboltable/bst/BSTDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/symboltable/bst/BSTDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,11 +21,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/symboltable/bst/BST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+            <state relative-caret-position="342">
+              <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#655#656#0" expanded="true" />
                 <element signature="e#683#684#0" expanded="true" />
+                <element signature="e#1121#1122#0" expanded="true" />
+                <element signature="e#1149#1150#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,8 +37,24 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/symboltable/bst/BSTDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+            <state relative-caret-position="323">
+              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/queue/dynamicarray/QueueDynamicArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="45" column="59" selection-start-line="45" selection-start-column="59" selection-end-line="45" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#717#718#0" expanded="true" />
+                <element signature="e#758#759#0" expanded="true" />
+                <element signature="e#901#902#0" expanded="true" />
+                <element signature="e#972#973#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,7 +82,6 @@
         <option value="$PROJECT_DIR$/src/queue/linkedlist/QueueLinkedListDemo.java" />
         <option value="$PROJECT_DIR$/src/queue/linkedlist/QueueLinkedList.java" />
         <option value="$PROJECT_DIR$/src/queue/dynamicarray/QueueDynamicArrayDemo.java" />
-        <option value="$PROJECT_DIR$/src/queue/dynamicarray/QueueDynamicArray.java" />
         <option value="$PROJECT_DIR$/src/sorting/MergeSortDemo.java" />
         <option value="$PROJECT_DIR$/src/sorting/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/sorting/mergesort/MergeSortDemo.java" />
@@ -103,6 +95,7 @@
         <option value="$PROJECT_DIR$/src/sorting/heapsort/HeapSortDemo.java" />
         <option value="$PROJECT_DIR$/src/symboltable/bst/BST.java" />
         <option value="$PROJECT_DIR$/src/symboltable/bst/BSTDemo.java" />
+        <option value="$PROJECT_DIR$/src/queue/dynamicarray/QueueDynamicArray.java" />
       </list>
     </option>
   </component>
@@ -129,6 +122,19 @@
               <item name="data-structures" type="b2602c69:ProjectViewProjectNode" />
               <item name="data-structures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-structures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-structures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data-structures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data-structures" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+              <item name="dynamicarray" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="data-structures" type="b2602c69:ProjectViewProjectNode" />
@@ -274,12 +280,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32733223" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32569557" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32733223" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
@@ -327,20 +333,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/queue/dynamicarray/QueueDynamicArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
-            <element signature="e#950#951#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -446,19 +438,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/symboltable/bst/BST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="47" column="17" lean-forward="true" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        <state relative-caret-position="342">
+          <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#655#656#0" expanded="true" />
             <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#1121#1122#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/queue/dynamicarray/QueueDynamicArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="45" column="59" selection-start-line="45" selection-start-column="59" selection-end-line="45" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#758#759#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/symboltable/bst/BSTDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        <state relative-caret-position="323">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
         </state>
       </provider>
     </entry>

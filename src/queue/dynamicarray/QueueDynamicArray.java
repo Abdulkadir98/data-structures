@@ -43,7 +43,7 @@ public class QueueDynamicArray<Item> implements Iterable<Item> {
         int current = front;
         @Override
         public boolean hasNext() {
-            return current < q.length;
+            return current < q.length && q[current] != null;
         }
 
         @Override

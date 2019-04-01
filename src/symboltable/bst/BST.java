@@ -1,5 +1,9 @@
 package symboltable.bst;
 
+import queue.dynamicarray.QueueDynamicArray;
+
+import java.util.Queue;
+
 public class BST<Key extends Comparable<Key>, Val> {
 
     private Node root;
@@ -10,6 +14,7 @@ public class BST<Key extends Comparable<Key>, Val> {
         Val val;
         Node left;
         Node right;
+        int count;
 
         public Node(Key key, Val val){
             this.key = key;
@@ -45,6 +50,31 @@ public class BST<Key extends Comparable<Key>, Val> {
         else
             x.val = val;
 
+        x.count = 1 + size(x.left) + size(x.right);
         return x;
+    }
+
+    public Iterable<Key> keys() {
+
+        QueueDynamicArray<Key> q = new QueueDynamicArray<>();
+        inorder(root, q);
+        return q;
+    }
+
+    //inorder traversal of binary search tree
+    private void inorder(Node x, QueueDynamicArray<Key> q) {
+        if (x == null) return;
+        inorder(x.left, q);
+        q.enQueue(x.key);
+        inorder(x.right, q);
+    }
+
+    public int size() {
+        return size(root);
+    }
+
+    private int size(Node x) {
+        if (x == null) return 0;
+        return x.count;
     }
 }
