@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cd8fcfa-8415-43a7-8d71-146f2ad6caf5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/queue/dynamicarray/QueueDynamicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/queue/dynamicarray/QueueDynamicArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/symboltable/bst/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/symboltable/bst/BST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/symboltable/bst/BSTDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/symboltable/bst/BSTDemo.java" afterDir="false" />
     </list>
@@ -21,14 +21,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/symboltable/bst/BST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+            <state relative-caret-position="289">
+              <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#655#656#0" expanded="true" />
-                <element signature="e#683#684#0" expanded="true" />
-                <element signature="e#1121#1122#0" expanded="true" />
-                <element signature="e#1149#1150#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
+                <element signature="e#1194#1195#0" expanded="true" />
+                <element signature="e#1225#1226#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -37,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/symboltable/bst/BSTDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            <state relative-caret-position="340">
+              <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -46,7 +46,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/queue/dynamicarray/QueueDynamicArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
+            <state relative-caret-position="509">
               <caret line="45" column="59" selection-start-line="45" selection-start-column="59" selection-end-line="45" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -93,9 +93,9 @@
         <option value="$PROJECT_DIR$/src/priorityqueue/MaxPQDemo.java" />
         <option value="$PROJECT_DIR$/src/sorting/heapsort/Heap.java" />
         <option value="$PROJECT_DIR$/src/sorting/heapsort/HeapSortDemo.java" />
+        <option value="$PROJECT_DIR$/src/queue/dynamicarray/QueueDynamicArray.java" />
         <option value="$PROJECT_DIR$/src/symboltable/bst/BST.java" />
         <option value="$PROJECT_DIR$/src/symboltable/bst/BSTDemo.java" />
-        <option value="$PROJECT_DIR$/src/queue/dynamicarray/QueueDynamicArray.java" />
       </list>
     </option>
   </component>
@@ -111,6 +111,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -153,7 +154,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -271,7 +271,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15128593" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15355521" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -285,7 +285,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32733223" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32569557" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
@@ -436,23 +436,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/symboltable/bst/BST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#1121#1122#0" expanded="true" />
-            <element signature="e#1149#1150#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/queue/dynamicarray/QueueDynamicArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
+        <state relative-caret-position="509">
           <caret line="45" column="59" selection-start-line="45" selection-start-column="59" selection-end-line="45" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -464,10 +450,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/symboltable/bst/BST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#1194#1195#0" expanded="true" />
+            <element signature="e#1225#1226#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/symboltable/bst/BSTDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        <state relative-caret-position="340">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
         </state>
       </provider>
     </entry>

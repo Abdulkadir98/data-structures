@@ -1,7 +1,5 @@
 package symboltable.bst;
 
-import queue.dynamicarray.QueueDynamicArray;
-
 public class BSTDemo {
 
     public static void main(String[] args) {
@@ -15,9 +13,12 @@ public class BSTDemo {
         bst.put("A", 1);
         bst.put("B", 2);
 
+
         for (Comparable data: bst.keys()) {
             System.out.println(data);
         }
+
+        //System.out.println(bst.contains("E"));
 
     }
 }
