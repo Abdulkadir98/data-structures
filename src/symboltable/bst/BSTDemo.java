@@ -1,5 +1,10 @@
 package symboltable.bst;
 
+/**
+ * Time complexity of ordered oerations: O(h) where h i height of tree (Average case)
+ * if items come in order then the ordered operations take linear time
+ *
+ */
 public class BSTDemo {
 
     public static void main(String[] args) {
