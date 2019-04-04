@@ -4,21 +4,23 @@ public class GraphDemo {
 
     public static void main(String[] args) {
 
-        Graph graph = new Graph(5);
+        Graph graph = new Graph(13);
 
-        graph.addEdge(0, 1);
-        graph.addEdge(2, 4);
+        graph.addEdge(0, 5);
         graph.addEdge(4, 3);
-        graph.addEdge(0, 3);
-        graph.addEdge(0, 4);
+        graph.addEdge(0, 1);
+        graph.addEdge(6, 4);
+        graph.addEdge(5, 4);
+        graph.addEdge(0, 2);
+        graph.addEdge(0, 6);
+        graph.addEdge(5, 3);
 
-       for (int v=0; v < graph.V(); v++) {
+      DepthFirstPaths paths = new DepthFirstPaths(graph, 0);
+      System.out.println(paths.hasPathTo(5));
 
-           for (int w: graph.adj(v)) {
-               System.out.print(w + " ");
-           }
-           System.out.println("\n");
+      for (int x: paths.pathTo(6)) {
+          System.out.print(x + " ");
+      }
 
-       }
     }
 }
