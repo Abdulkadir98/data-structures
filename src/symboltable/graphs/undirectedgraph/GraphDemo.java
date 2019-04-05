@@ -15,7 +15,8 @@ public class GraphDemo {
         graph.addEdge(0, 6);
         graph.addEdge(5, 3);
 
-      DepthFirstPaths paths = new DepthFirstPaths(graph, 0);
+      //DepthFirstPaths paths = new DepthFirstPaths(graph, 0);
+        BreadthFirstPaths paths = new BreadthFirstPaths(graph, 0);
       System.out.println(paths.hasPathTo(5));
 
       for (int x: paths.pathTo(6)) {
