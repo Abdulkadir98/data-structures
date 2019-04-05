@@ -15,7 +15,7 @@ public class QueueDynamicArray<Item> implements Iterable<Item> {
     }
 
     public boolean isEmpty() {
-        return rear == 0;
+        return rear == 0 || front == q.length;
     }
 
     public void enQueue(Item item) {

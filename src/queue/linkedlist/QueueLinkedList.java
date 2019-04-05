@@ -1,6 +1,7 @@
 package queue.linkedlist;
 
 import java.util.Iterator;
+import java.util.NoSuchElementException;
 
 public class QueueLinkedList<Item> implements Iterable<Item> {
 
@@ -31,24 +32,25 @@ public class QueueLinkedList<Item> implements Iterable<Item> {
 
     public void enQueue(Item item) {
 
-        Node newNode = new Node(item);
+        Node oldlast = rear;
+        rear = new Node(item);
+        rear.item = item;
+        rear.next = null;
 
-        if (rear == null)
-            front = rear = newNode;
+        if (isEmpty())
+            front = rear;
+        else
+            oldlast.next = rear;
 
-        else {
-            rear.next = newNode;
-            rear = newNode;
-        }
 
     }
 
     public Item deQueue() {
 
+        if (isEmpty()) throw new NoSuchElementException("Queue underflow");
         Item item = front.item;
-
         front = front.next;
-
+        if (isEmpty()) rear = null;   // to avoid loitering
         return item;
     }
 

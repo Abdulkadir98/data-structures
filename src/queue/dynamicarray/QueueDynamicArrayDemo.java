@@ -7,9 +7,12 @@ public class QueueDynamicArrayDemo {
         q.enQueue("Hello");
         q.enQueue("World!");
 
+        System.out.println(q.deQueue());
+        System.out.println(q.deQueue());
 
-        for (String s: q) {
-            System.out.println(s);
-        }
+
+//        for (String s: q) {
+//            System.out.println(s);
+//        }
     }
 }

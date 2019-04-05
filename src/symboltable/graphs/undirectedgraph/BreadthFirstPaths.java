@@ -1,9 +1,11 @@
 package symboltable.graphs.undirectedgraph;
 
-import queue.dynamicarray.QueueDynamicArray;
 import queue.linkedlist.QueueLinkedList;
 import stack.dynamicarray.StackArray;
 
+/**
+ * Used to compute shortest paths. It marks each vertex in increasing order of distance from source vertex.
+ */
 public class BreadthFirstPaths {
 
     private boolean[] marked;
@@ -33,6 +35,7 @@ public class BreadthFirstPaths {
 
                     queue.enQueue(w);
                     marked[w] = true;
+                    edgeTo[w] = v;
                 }
             }
         }

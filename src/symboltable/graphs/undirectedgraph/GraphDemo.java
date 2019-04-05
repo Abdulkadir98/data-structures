@@ -17,9 +17,9 @@ public class GraphDemo {
 
       //DepthFirstPaths paths = new DepthFirstPaths(graph, 0);
         BreadthFirstPaths paths = new BreadthFirstPaths(graph, 0);
-      System.out.println(paths.hasPathTo(5));
+      System.out.println(paths.hasPathTo(3));
 
-      for (int x: paths.pathTo(6)) {
+      for (int x: paths.pathTo(3)) {
           System.out.print(x + " ");
       }
 
