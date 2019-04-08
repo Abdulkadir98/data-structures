@@ -1,4 +1,4 @@
-package symboltable.graphs.undirectedgraph;
+package graphs.undirectedgraph;
 
 import java.util.Iterator;
 

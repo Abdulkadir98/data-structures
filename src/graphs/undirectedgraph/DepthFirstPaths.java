@@ -1,4 +1,4 @@
-package symboltable.graphs.undirectedgraph;
+package graphs.undirectedgraph;
 
 import stack.dynamicarray.StackArray;
 
