@@ -25,8 +25,8 @@ public class DigraphDemo {
 //            for (int w: digraph.adj(v))
 //                System.out.println(v + " -> " + w);
 //        }
-        DepthFirstPaths dfs = new DepthFirstPaths(digraph, 9);
-        for (int v: dfs.pathTo(2)) {
+        BreadthFirstPaths bfs = new BreadthFirstPaths(digraph, 9);
+        for (int v: bfs.pathTo(2)) {
             System.out.print(v + " ");
         }
     }
