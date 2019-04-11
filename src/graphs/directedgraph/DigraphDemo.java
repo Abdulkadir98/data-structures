@@ -21,9 +21,13 @@ public class DigraphDemo {
         digraph.addEdge(4, 3);
         digraph.addEdge(3, 5);
 
-        for (int v=0; v<digraph.V(); v++) {
-            for (int w: digraph.adj(v))
-                System.out.println(v + " -> " + w);
+//        for (int v=0; v<digraph.V(); v++) {
+//            for (int w: digraph.adj(v))
+//                System.out.println(v + " -> " + w);
+//        }
+        DepthFirstPaths dfs = new DepthFirstPaths(digraph, 9);
+        for (int v: dfs.pathTo(2)) {
+            System.out.print(v + " ");
         }
     }
 }
