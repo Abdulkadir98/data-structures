@@ -1,5 +1,7 @@
 package symboltable.redblackbst;
 
+import queue.linkedlist.QueueLinkedList;
+
 public class RedBlackBST<Key extends Comparable<Key>, Val> {
 
     private static  boolean RED = true;
@@ -52,6 +54,20 @@ public class RedBlackBST<Key extends Comparable<Key>, Val> {
         if (isRed(h.left) && isRed(h.right)) flipColors(h);
 
         return h;
+    }
+
+    public Iterable<Key> keys() {
+
+        QueueLinkedList<Key> q = new QueueLinkedList<>();
+        inorder(h, q);
+        return q;
+    }
+
+    private void inorder(Node x, QueueLinkedList<Key> q) {
+        if (x == null) return;
+        inorder(x.left, q);
+        q.enQueue(x.key);
+        inorder(x.right, q);
     }
 
     private Node rotateLeft(Node h) {
