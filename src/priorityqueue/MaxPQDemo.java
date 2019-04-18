@@ -4,7 +4,7 @@ public class MaxPQDemo {
 
     public static void main(String[] args) {
 
-        MaxPQ<String> pq = new MaxPQ<>(11);
+        MinPQ<String> pq = new MinPQ<>(11);
 
         pq.insert("R");
         pq.insert("N");
@@ -17,11 +17,11 @@ public class MaxPQDemo {
         pq.insert("E");
         pq.insert("A");
 
-        for (Comparable item: pq) {
-            System.out.println(item);
-        }
+//        for (Comparable item: pq) {
+//            System.out.println(item);
+//        }
 
-        //System.out.println(pq.delMax());
-
+        for (int i=0; i<10; i++)
+            System.out.println(pq.delMin());
     }
 }
