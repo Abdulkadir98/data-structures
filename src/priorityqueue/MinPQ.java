@@ -4,16 +4,24 @@ public class MinPQ<Key extends Comparable<Key>> {
 
     private Key[] pq;
     private int N;
+    private int size;
 
     public MinPQ(int capacity) {
 
         pq = (Key[]) new Comparable[capacity];
         N = 0;
+        size = N;
+    }
+
+    public boolean isEmpty() {
+
+        return size == 0;
     }
 
     public void insert(Key key) {
         pq[++N] = key;
         swim(N);
+        size++;
     }
 
     private void swim(int k) {
@@ -44,6 +52,7 @@ public class MinPQ<Key extends Comparable<Key>> {
         sink(1);
 
         pq[N+1] = null;
+        size--;
         return min;
     }
 

@@ -6,6 +6,7 @@ import java.util.NoSuchElementException;
 public class QueueLinkedList<Item> implements Iterable<Item> {
 
     private Node front, rear;
+    private int size;
 
     @Override
     public Iterator<Item> iterator() {
@@ -24,6 +25,7 @@ public class QueueLinkedList<Item> implements Iterable<Item> {
     public QueueLinkedList() {
 
         front = rear = null;
+        size = 0;
     }
 
     public boolean isEmpty() {
@@ -42,6 +44,7 @@ public class QueueLinkedList<Item> implements Iterable<Item> {
         else
             oldlast.next = rear;
 
+        size++;
 
     }
 
@@ -51,7 +54,12 @@ public class QueueLinkedList<Item> implements Iterable<Item> {
         Item item = front.item;
         front = front.next;
         if (isEmpty()) rear = null;   // to avoid loitering
+        size--;
         return item;
+    }
+
+    public int size() {
+        return size;
     }
 
     private class ListIterator implements Iterator<Item> {
