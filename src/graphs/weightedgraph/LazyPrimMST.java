@@ -1,5 +1,6 @@
 package graphs.weightedgraph;
 
+import edu.princeton.cs.algs4.IndexMinPQ;
 import priorityqueue.MinPQ;
 import queue.linkedlist.QueueLinkedList;
 
@@ -71,7 +72,7 @@ public class LazyPrimMST {
         LazyPrimMST mst = new LazyPrimMST(graph);
         for (Edge e: mst.edges()) {
             int v = e.either(), w = e.other(v);
-            System.out.println(v + " -- "+ w);
+            System.out.println(e);
         }
 
     }

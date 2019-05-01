@@ -1,28 +1,30 @@
-package graphs.weightedgraph;
+package graphs.weighteddigraph;
 
-public class Edge implements Comparable<Edge> {
+public class DirectedEdge implements Comparable<DirectedEdge> {
 
-    private final int v, w;
-    private final double weight;
+    private int v, w;
+    private double weight;
 
-    public Edge(int v, int w, double weight) {
+    public DirectedEdge(int v, int w, double weight) {
         this.v = v;
         this.w = w;
         this.weight = weight;
     }
 
-    public int either() {
+    public int from() {
         return v;
     }
 
-    public int other(int vertex) {
+    public int to() {
+        return w;
+    }
 
-        if (vertex == v) return w;
-        return v;
+    public double getWeight() {
+        return weight;
     }
 
     @Override
-    public int compareTo(Edge other) {
+    public int compareTo(DirectedEdge other) {
         if (this.weight < other.weight) return -1;
         else if (this.weight > other.weight) return 1;
         else return 0;
@@ -30,7 +32,7 @@ public class Edge implements Comparable<Edge> {
 
     @Override
     public String toString() {
-        return "Edge{" +
+        return "DirectedEdge{" +
                 "v=" + v +
                 ", w=" + w +
                 ", weight=" + weight +
