@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cd8fcfa-8415-43a7-8d71-146f2ad6caf5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/graphs/weighteddigraph/DijkstraSP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/weighteddigraph/DirectedEdge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graphs/weighteddigraph/EdgeWeightedDigraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/symboltable/trie/TrieST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/META-INF/DataStructures.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/graphs/weightedgraph/Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/graphs/weightedgraph/Edge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DataStructures/graphs/weightedgraph/LazyPrimMST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructures/graphs/weightedgraph/LazyPrimMST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphs/weightedgraph/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/weightedgraph/Edge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graphs/weightedgraph/LazyPrimMST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/weightedgraph/LazyPrimMST.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,46 +17,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/graphs/weightedgraph/EdgeWeightedGraph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/graphs/weightedgraph/LazyPrimMST.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/graphs/weighteddigraph/DirectedEdge.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/graphs/weighteddigraph/DijkstraSP.java">
+        <entry file="file://$PROJECT_DIR$/src/symboltable/trie/TrieST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1088">
-              <caret line="76" column="36" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
+            <state relative-caret-position="376">
+              <caret line="43" column="40" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,6 +93,7 @@
         <option value="$PROJECT_DIR$/src/graphs/weightedgraph/LazyPrimMST.java" />
         <option value="$PROJECT_DIR$/src/graphs/weighteddigraph/DirectedEdge.java" />
         <option value="$PROJECT_DIR$/src/graphs/weighteddigraph/DijkstraSP.java" />
+        <option value="$PROJECT_DIR$/src/symboltable/trie/TrieST.java" />
       </list>
     </option>
   </component>
@@ -148,8 +109,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,52 +125,14 @@
               <item name="data-structures" type="b2602c69:ProjectViewProjectNode" />
               <item name="data-structures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="graphs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-structures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-structures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="graphs" type="462c0819:PsiDirectoryNode" />
-              <item name="weighteddigraph" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-structures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-structures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="graphs" type="462c0819:PsiDirectoryNode" />
-              <item name="weightedgraph" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-structures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-structures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="priorityqueue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-structures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-structures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="queue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-structures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-structures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="queue" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data-structures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data-structures" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="symboltable" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="data-structures" type="b2602c69:ProjectViewProjectNode" />
               <item name="data-structures" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="unionfind" type="462c0819:PsiDirectoryNode" />
+              <item name="symboltable" type="462c0819:PsiDirectoryNode" />
+              <item name="trie" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="data-structures" type="b2602c69:ProjectViewProjectNode" />
@@ -221,6 +142,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -244,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DijkstraSP">
+  <component name="RunManager" selected="Application.TrieST">
     <configuration name="DijkstraSP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graphs.weighteddigraph.DijkstraSP" />
       <module name="DataStructures" />
@@ -297,12 +220,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedBlackBSTDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="symboltable.redblackbst.RedBlackBSTDemo" />
+    <configuration name="TrieST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="symboltable.trie.TrieST" />
       <module name="DataStructures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="symboltable.redblackbst.*" />
+          <option name="PATTERN" value="symboltable.trie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -312,11 +235,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TrieST" />
         <item itemvalue="Application.DijkstraSP" />
         <item itemvalue="Application.LazyPrimMST" />
         <item itemvalue="Application.KruskalMST" />
         <item itemvalue="Application.MaxPQDemo" />
-        <item itemvalue="Application.RedBlackBSTDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -337,7 +260,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20272315" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11875945" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -353,7 +276,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.34860885" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32569557" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -676,16 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/graphs/weightedgraph/EdgeWeightedGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/graphs/weighteddigraph/EdgeWeightedDigraph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -700,10 +613,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/graphs/weightedgraph/LazyPrimMST.java">
+    <entry file="file://$PROJECT_DIR$/src/graphs/weighteddigraph/DijkstraSP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="416">
+          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -712,17 +625,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/graphs/weighteddigraph/DirectedEdge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="459">
           <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/graphs/weighteddigraph/DijkstraSP.java">
+    <entry file="file://$PROJECT_DIR$/src/graphs/weightedgraph/LazyPrimMST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="76" column="36" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
+        <state relative-caret-position="153">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graphs/weightedgraph/EdgeWeightedGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/symboltable/trie/TrieST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="43" column="40" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
+          <folding>
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
           </folding>
         </state>
       </provider>
